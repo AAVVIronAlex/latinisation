@@ -1,5 +1,5 @@
 lst = []
-text = input("Enter the text that should be latinised: ")
+text = input("Welcome to latinisation. This is a program that converts Armenian letters to their equivalent latin letters. \n\nEnter the text that should be latinised: ")
 wordChars = list(text)
 
 for i in range(len(wordChars)): # Making an array using the string.
