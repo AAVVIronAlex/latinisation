@@ -81,7 +81,7 @@ if (text.isascii() == False):
         elif (lst[i] == "շ"): # 24
             lst[i] = "sh"
 
-        elif (lst[i] == "ո" and i == len(wordChars) and lst[i + 1] == "ւ"): # 35
+        elif (lst[i] == "ո" and lst[i + 1] == "ւ"): #35
             lst[i] = "u"
             lst[i + 1] = ""
 
@@ -204,7 +204,7 @@ if (text.isascii() == False):
         elif (lst[i] == "Շ"): # 24
             lst[i] = "Sh"
 
-        elif (lst[i] == "Ո" and i == len(wordChars) and (lst[i + 1] == "ւ" or lst[i + 1] == "Ւ")): # 35
+        elif (lst[i] == "Ո" and (lst[i + 1] == "ւ" or lst[i + 1] == "Ւ")): #35
             lst[i] = "U"
             lst[i + 1] = ""
 
